@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		95CBFE92257DCCFC00CCAB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFE91257DCCFC00CCAB29 /* AppDelegate.swift */; };
 		95CBFE94257DCCFC00CCAB29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFE93257DCCFC00CCAB29 /* SceneDelegate.swift */; };
-		95CBFE96257DCCFC00CCAB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFE95257DCCFC00CCAB29 /* ViewController.swift */; };
+		95CBFE96257DCCFC00CCAB29 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFE95257DCCFC00CCAB29 /* TabViewController.swift */; };
 		95CBFE99257DCCFC00CCAB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CBFE97257DCCFC00CCAB29 /* Main.storyboard */; };
 		95CBFE9B257DCD0000CCAB29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CBFE9A257DCD0000CCAB29 /* Assets.xcassets */; };
 		95CBFE9E257DCD0000CCAB29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95CBFE9C257DCD0000CCAB29 /* LaunchScreen.storyboard */; };
 		95CBFEA9257DCD0000CCAB29 /* CustomTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFEA8257DCD0000CCAB29 /* CustomTabBarTests.swift */; };
 		95CBFEB4257DCD0000CCAB29 /* CustomTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFEB3257DCD0000CCAB29 /* CustomTabBarUITests.swift */; };
+		95CBFEC8258096EF00CCAB29 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFEC7258096EE00CCAB29 /* HomeViewController.swift */; };
+		95CBFECD2580971000CCAB29 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFECC2580971000CCAB29 /* CalendarViewController.swift */; };
+		95CBFED22580973800CCAB29 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFED12580973800CCAB29 /* PaymentViewController.swift */; };
+		95CBFEDD2580975000CCAB29 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFEDC2580975000CCAB29 /* MessagesViewController.swift */; };
+		95CBFEE22580976900CCAB29 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CBFEE12580976900CCAB29 /* AccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 		95CBFE8E257DCCFC00CCAB29 /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CBFE91257DCCFC00CCAB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95CBFE93257DCCFC00CCAB29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95CBFE95257DCCFC00CCAB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95CBFE95257DCCFC00CCAB29 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		95CBFE98257DCCFC00CCAB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95CBFE9A257DCD0000CCAB29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95CBFE9D257DCD0000CCAB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		95CBFEAF257DCD0000CCAB29 /* CustomTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95CBFEB3257DCD0000CCAB29 /* CustomTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarUITests.swift; sourceTree = "<group>"; };
 		95CBFEB5257DCD0000CCAB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95CBFEC7258096EE00CCAB29 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		95CBFECC2580971000CCAB29 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		95CBFED12580973800CCAB29 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		95CBFEDC2580975000CCAB29 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		95CBFEE12580976900CCAB29 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				95CBFE91257DCCFC00CCAB29 /* AppDelegate.swift */,
 				95CBFE93257DCCFC00CCAB29 /* SceneDelegate.swift */,
-				95CBFE95257DCCFC00CCAB29 /* ViewController.swift */,
+				95CBFE95257DCCFC00CCAB29 /* TabViewController.swift */,
 				95CBFE97257DCCFC00CCAB29 /* Main.storyboard */,
 				95CBFE9A257DCD0000CCAB29 /* Assets.xcassets */,
 				95CBFE9C257DCD0000CCAB29 /* LaunchScreen.storyboard */,
 				95CBFE9F257DCD0000CCAB29 /* Info.plist */,
+				95CBFEC7258096EE00CCAB29 /* HomeViewController.swift */,
+				95CBFECC2580971000CCAB29 /* CalendarViewController.swift */,
+				95CBFED12580973800CCAB29 /* PaymentViewController.swift */,
+				95CBFEDC2580975000CCAB29 /* MessagesViewController.swift */,
+				95CBFEE12580976900CCAB29 /* AccountViewController.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95CBFE96257DCCFC00CCAB29 /* ViewController.swift in Sources */,
+				95CBFECD2580971000CCAB29 /* CalendarViewController.swift in Sources */,
+				95CBFEDD2580975000CCAB29 /* MessagesViewController.swift in Sources */,
+				95CBFEE22580976900CCAB29 /* AccountViewController.swift in Sources */,
+				95CBFED22580973800CCAB29 /* PaymentViewController.swift in Sources */,
+				95CBFE96257DCCFC00CCAB29 /* TabViewController.swift in Sources */,
 				95CBFE92257DCCFC00CCAB29 /* AppDelegate.swift in Sources */,
 				95CBFE94257DCCFC00CCAB29 /* SceneDelegate.swift in Sources */,
+				95CBFEC8258096EF00CCAB29 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
